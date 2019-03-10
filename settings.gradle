@@ -1,0 +1,4 @@
+rootProject.name = 'todoapplication'
+include 'taskapi'
+include 'taskui'
+
