@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -14,7 +15,7 @@ import java.util.Map;
 public class TaskApplication {
 
     @CrossOrigin(origins = "http://localhost:4200")
-    @RequestMapping("/books")
+    @RequestMapping("/tasks")
     public Map home() {
         Map model = new HashMap();
         model.put("content", getListOfBooks());
